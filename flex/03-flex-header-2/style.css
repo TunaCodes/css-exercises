@@ -48,28 +48,19 @@ ul {
 }
  
 .header{
-  display: flex;
-  justify-content: space-between;
-
+display: flex;
+justify-content: space-between;
+padding: 8px;
 }
 
 ul{
   display: flex;
-  margin: 0px;
-  padding: 0px;
+  justify-content: space-between;
   gap: 16px;
 }
 
-.left{
+.left, .right{
   display: flex;
-  gap: 12px;;
   align-items: center;
-
-}
-
-.right{
-  display: flex;
-  gap: 12px;;
-  align-items: center;
-
+  gap: 12px;
 }
